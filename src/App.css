@@ -1,0 +1,20 @@
+.container {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+/*   border: 2px solid red;
+ */}
+
+ /* HERO SECTION */
+
+ .hero-h-one {
+  margin-top: 1rem;
+  color: var(--color-fg);
+ }
+
+ .hero-h-two {
+  color: var(--color-light);
+  margin-top: 0.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+ }
