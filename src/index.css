@@ -20,9 +20,13 @@ html, body, #root {
 
 /* 4. Typography & color defaults */
 :root {
-  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  --color-bg: #ffffff;
-  --color-fg: #111111;
+  --font-heading: 'Unbounded', sans-serif;
+  --font-sans: 'Poppins', sans-serif;
+  --color-accent: #D91A1A;
+  --color-light: #BFBFBF;
+  --color-muted: #737373;
+  --color-bg: #F2F2F2;
+  --color-fg: #0D0D0D;
 
   color-scheme: light dark;
 }
@@ -38,7 +42,7 @@ html, body, #root {
 body {
   font-family: var(--font-sans);
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 300;
   background-color: var(--color-bg);
   color: var(--color-fg);
   text-rendering: optimizeLegibility; /* Improve text rendering */
@@ -49,6 +53,7 @@ body {
 /* 5. Media elements */
 img, picture, video, canvas, svg {
   display: block;
+  color: var(--color-accent);
   max-width: 100%;
 }
 
@@ -77,7 +82,14 @@ a:hover {
 }
 
 /* 9. Headings */
-h1, h2, h3, h4, h5, h6 {
+h1 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 1.2;
+  overflow-wrap: break-word; /* Prevent overflow */
+}
+
+h2, h3, h4, h5, h6 {
   font-weight: 600;
   line-height: 1.2;
   overflow-wrap: break-word; /* Prevent overflow */
