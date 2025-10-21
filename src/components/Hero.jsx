@@ -19,7 +19,7 @@ function Hero() {
                     drag
                     dragConstraints={constraintsRef}
                     dragElastic={0.2}
-                    style={beanie}
+                    style={picone}
                 />
                
                
@@ -42,4 +42,17 @@ const constraints = {
   backgroundColor: 'var(--hue-1-transparent)',
   overflow: 'hidden',       // optional: hides overflow
   position: 'relative'      // important for drag constraints
+};
+
+const picone = {
+  width: 300,
+  height: 220,
+  backgroundImage: `url(${beanie})`,
+  backgroundSize: 'cover',
+  backgroundRepeat: 'no-repeat',
+  position: 'absolute',
+  top: '50%',
+  left: '20%',
+  backgroundPosition: 'center',
+  borderRadius: 10,
 };

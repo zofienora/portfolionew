@@ -18,3 +18,12 @@
   font-weight: 700;
   margin-bottom: 1.5rem;
  }
+
+ .drag-container {
+  position: absolute;   /* take it out of flow */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;           /* ensure it’s above header-container */
+}
