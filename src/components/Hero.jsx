@@ -3,6 +3,13 @@ import { useRef } from "react";
 import beanie from "../assets/img/beanie.png"
 import certificate from "../assets/img/certificate.png"
 import fire from "../assets/img/fire.jpg"
+import ice from "../assets/img/ice.png" 
+import mac from "../assets/img/mac.png"
+import mario from "../assets/img/mario.png"
+import shoe from "../assets/img/shoe.png"
+import snow from "../assets/img/snow.png"
+import swim from "../assets/img/swim.png"
+import toast from "../assets/img/toast.png"
 
 
 function Hero() {
