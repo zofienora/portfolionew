@@ -1,3 +1,6 @@
+import * as motion from "motion/react-client"
+
+
 function Hero() {
     return (
         <>
