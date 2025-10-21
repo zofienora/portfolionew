@@ -1,6 +1,8 @@
 import * as motion from "motion/react-client"
 import { useRef } from "react";
 import beanie from "../assets/img/beanie.png"
+import certificate from "../assets/img/certificate.png"
+import fire from "../assets/img/fire.jpg"
 
 
 function Hero() {
@@ -20,6 +22,18 @@ function Hero() {
                     dragConstraints={constraintsRef}
                     dragElastic={0.2}
                     style={picone}
+                />
+                <motion.div
+                    drag
+                    dragConstraints={constraintsRef}
+                    dragElastic={0.2}
+                    style={pictwo}
+                />
+                <motion.div
+                    drag
+                    dragConstraints={constraintsRef}
+                    dragElastic={0.2}
+                    style={picthree}
                 />
                
                
@@ -48,6 +62,32 @@ const picone = {
   width: 300,
   height: 220,
   backgroundImage: `url(${beanie})`,
+  backgroundSize: 'cover',
+  backgroundRepeat: 'no-repeat',
+  position: 'absolute',
+  top: '50%',
+  left: '20%',
+  backgroundPosition: 'center',
+  borderRadius: 10,
+};
+
+const pictwo = {
+  width: 300,
+  height: 220,
+  backgroundImage: `url(${certificate})`,
+  backgroundSize: 'cover',
+  backgroundRepeat: 'no-repeat',
+  position: 'absolute',
+  top: '50%',
+  left: '20%',
+  backgroundPosition: 'center',
+  borderRadius: 10,
+};
+
+const picthree = {
+  width: 300,
+  height: 220,
+  backgroundImage: `url(${fire})`,
   backgroundSize: 'cover',
   backgroundRepeat: 'no-repeat',
   position: 'absolute',
