@@ -29,7 +29,9 @@ function About() {
         </svg>
 
         <motion.ul ref={ref} style={{ maskImage }}>
-          <li style={{ background: "#ff0088" }}></li>
+          <li style={{ background: "#ff0088" }}>
+            <p>hi this is a test</p>
+          </li>
           <li style={{ background: "#dd00ee" }}></li>
           <li style={{ background: "#9911ff" }}></li>
           <li style={{ background: "#0d63f8" }}></li>
