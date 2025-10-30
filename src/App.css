@@ -27,3 +27,15 @@
   height: 100vh;
   z-index: 2;           /* ensure it’s above header-container */
 }
+
+/* ABOUT SECTION  */
+
+.square {
+  width: 150%;
+  height: 150%;
+  display: flex;
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}

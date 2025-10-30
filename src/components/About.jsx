@@ -19,7 +19,7 @@ function About() {
       <div id="example">
 
         <motion.ul ref={ref} style={{ maskImage }}>
-          <li style={{ background: "#ff0088" }}>
+          <li className="square s-one" >
             <p>hi this is a test</p>
           </li>
           <li style={{ background: "#dd00ee" }}></li>
