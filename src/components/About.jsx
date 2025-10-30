@@ -17,16 +17,6 @@ function About() {
   return (
     <>
       <div id="example">
-        <svg id="progress" width="80" height="80" viewBox="0 0 100 100">
-          <circle cx="50" cy="50" r="30" pathLength="1" className="bg" />
-          <motion.circle
-            cx="50"
-            cy="50"
-            r="30"
-            className="indicator"
-            style={{ pathLength: scrollXProgress }}
-          />
-        </svg>
 
         <motion.ul ref={ref} style={{ maskImage }}>
           <li style={{ background: "#ff0088" }}>
